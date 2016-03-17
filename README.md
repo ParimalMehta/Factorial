@@ -1,0 +1,2 @@
+# Factorial
+Calculation of factorial
