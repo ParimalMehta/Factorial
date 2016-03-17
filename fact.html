@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Factorial</title>
+    <script>
+        function facto()
+        {
+            var i, fact=1, a;
+            a = Number(document.getElementById("num").value);
+            for(i=1;i<=a;i++)
+            {
+                fact = fact * i;
+            }
+            document.getElementById("answer").value = fact;
+        }
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                Enter no :
+            </td>
+            <td>
+                <input id="num" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="facto()">Factorial</button>
+            </td>
+            <td>
+                Answer=
+            </td>
+            <td>
+                <input id="answer" type="text" />
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
