@@ -1,2 +1,2 @@
 # Factorial
-Calculation of factorial
+Calculation of factorial of integer
